@@ -23,14 +23,3 @@ timeloop:
 	echo "All Timeloop sample tests cases passed!"
 
 all: clean hello timeloop
-
-a:
-	rm -f $(PROGRAM_NAME) *.o
-	$(COMPILER) $(COMPILER_FLAGS) $(CPP_FILES) -o $(PROGRAM_NAME)
-	cat 1.in | ./$(PROGRAM_NAME) 
-	
-a1:
-	rm -f $(PROGRAM_NAME) *.o
-	$(COMPILER) $(COMPILER_FLAGS) $(CPP_FILES) -o $(PROGRAM_NAME)
-	cat 1.in | ./$(PROGRAM_NAME) | diff - 1.ans
-
