@@ -101,6 +101,9 @@ int main() {
         if (v[i] % 2 == 0) v[i]=-1;
     printVector(v);
 
+    sort(v.begin(), v.end());
+    printVector(v);
+
     
     return 0;
 }
