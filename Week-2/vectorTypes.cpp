@@ -94,6 +94,7 @@ class Dog {
 };
 
 int main() {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     cout<<endl<<endl;
 
     vector<string> names = {"John", "Paul", "George"};

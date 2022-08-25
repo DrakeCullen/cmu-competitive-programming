@@ -72,6 +72,7 @@ typedef unsigned long long int  uint64;
 typedef long double ld;
 
 int main() {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     int n;
     cin>>n;
     REP(i,n) cout<<i+1<<" Abracadabra"<<endl;

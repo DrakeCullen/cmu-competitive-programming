@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+ #include <bits/stdc++.h>
 
 using namespace std;
 #define LSOne(S) ((S) & -(S))  
@@ -86,6 +86,7 @@ void printVectorRangeBased(const vector<int> &v) {
 
 
 int main() {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL); 
     cout<<endl<<endl;
     
     vector<int> evenNumbers;

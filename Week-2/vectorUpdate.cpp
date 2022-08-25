@@ -78,6 +78,7 @@ void printVector(const vector<int> &v) {
 }
 
 int main() {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     cout<<endl<<endl;
 
     vector<int> v = {1,2,3,4,5,6,7,8,9,10};
