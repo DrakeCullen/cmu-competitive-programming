@@ -71,33 +71,22 @@ typedef long long int int64;
 typedef unsigned long long int  uint64;
 typedef long double ld;
 
-void print(const vi &v) {
-    for (auto i : v) cout << i << " ";
-    cout << endl;
-}
-
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL); 
-    cout<<endl<<endl;
-    vi v = {10,20,30,30,20,10,10,20};
-    sort(v.begin(), v.end());
-    print(v);
-    cout<<endl;
 
-    if (binary_search(v.begin(), v.end(), 20)) cout << "20 exists in vector";
-    else cout << "15 does not exist";
-    cout << endl;
- 
-    if (binary_search(v.begin(), v.end(), 23)) cout << "23 exists in vector";
-    else cout << "23 does not exist";
-    cout<<endl;
-    auto low=lower_bound (v.begin(), v.end(), 20); //          ^
-    auto up= upper_bound (v.begin(), v.end(), 20); //                   ^
+    stack<int> stk; 
+    stk.push(2);
+    cout<<"Top element: "<<stk.top()<<endl;
+    stk.push(5);
+    cout<<"Top element: "<<stk.top()<<endl;
+    stk.push(3);
+    cout<<"Top element: "<<stk.top()<<endl<<endl;
 
-    cout << "lower_bound at position " << (low- v.begin()) << '\n';
-    cout << "upper_bound at position " << (up - v.begin()) << '\n';
-    
-    cout << endl;
+    while(!stk.empty()) {
+        cout<<stk.top()<<' ';
+        stk.pop();
+    }
+    cout<<endl;
     return 0;
 }
