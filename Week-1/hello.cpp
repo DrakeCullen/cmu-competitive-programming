@@ -40,11 +40,6 @@ using namespace std;
 #define setAll(S, n) (S = (1<<n)-1)
 #define modulo(S, N) ((S) & (N-1))   // returns S % N, where N is a power of 2
 #define isPowerOfTwo(S) (!(S & (S-1)))
-#define nearestPowerOfTwo(S) (1<<lround(log2(S)))
-#define turnOffLastBit(S) ((S) & (S-1))
-#define turnOnLastZero(S) ((S) | (S+1))
-#define turnOffLastConsecutiveBits(S) ((S) & (S+1))
-#define turnOnLastConsecutiveZeroes(S) ((S) | (S-1))
 const double pi=acos(-1.0);
 typedef long long ll;
 typedef pair<int, int> pii;
