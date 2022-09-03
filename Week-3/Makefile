@@ -12,9 +12,6 @@ STRINGSTREAM = stringstream.o
 CPP_STRINGSTREAM = stringstream.cpp 
 
 
-clean:
-	rm -f $(HELLO) $(TIMELOOP) *.o
-
 sorting:
 	rm -f $(SORT) *.o
 	$(COMPILER) $(COMPILER_FLAGS) $(CPP_SORT) -o $(SORT)

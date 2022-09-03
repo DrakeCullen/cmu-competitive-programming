@@ -9,8 +9,6 @@ CPP_UPDATE = vectorUpdate.cpp
 TYPES = vectorTypes.o
 CPP_TYPES = vectorTypes.cpp 
 
-clean:
-	rm -f $(HELLO) $(TIMELOOP) *.o
 
 vectorBasic:
 	rm -f $(BASIC) *.o

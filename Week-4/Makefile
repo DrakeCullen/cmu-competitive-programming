@@ -10,9 +10,6 @@ MAP = map.o
 CPP_MAP = map.cpp 
 
 
-clean:
-	rm -f $(HELLO) $(TIMELOOP) *.o
-
 deque:
 	rm -f $(DEQUE) *.o
 	$(COMPILER) $(COMPILER_FLAGS) $(CPP_DEQUE) -o $(DEQUE)

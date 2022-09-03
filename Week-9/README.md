@@ -1,0 +1,1 @@
+This week is a team contest! Compete at: https://open.kattis.com/contests/sc64j9

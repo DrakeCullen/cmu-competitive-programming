@@ -1,1 +1,1 @@
-There are no program examples this week, see https://docs.google.com/presentation/d/100OFR3n-xUSGzA5vnp3pjz2yG3oTwngTMQsytxXqAbQ/edit#slide=id.g14895f7b767_0_11 for the examples.
+This week is a team contest! Compete at: https://open.kattis.com/contests/fbxnrj
